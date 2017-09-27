@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EF28B0841F7A9CC000B21E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28B0831F7A9CC000B21E8D /* AppDelegate.swift */; };
-		EF28B0861F7A9CC000B21E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28B0851F7A9CC000B21E8D /* ViewController.swift */; };
-		EF28B0891F7A9CC000B21E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28B0871F7A9CC000B21E8D /* Main.storyboard */; };
+		EF28B0861F7A9CC000B21E8D /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28B0851F7A9CC000B21E8D /* FeedCollectionViewController.swift */; };
 		EF28B08B1F7A9CC000B21E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF28B08A1F7A9CC000B21E8D /* Assets.xcassets */; };
 		EF28B08E1F7A9CC000B21E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF28B08C1F7A9CC000B21E8D /* LaunchScreen.storyboard */; };
+		EF28B0961F7AE50100B21E8D /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28B0951F7AE50100B21E8D /* FeedCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF28B0801F7A9CC000B21E8D /* Mini Reddit without storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Reddit without storyboards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28B0831F7A9CC000B21E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF28B0851F7A9CC000B21E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF28B0881F7A9CC000B21E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF28B0851F7A9CC000B21E8D /* FeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewController.swift; sourceTree = "<group>"; };
 		EF28B08A1F7A9CC000B21E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF28B08D1F7A9CC000B21E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF28B08F1F7A9CC000B21E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF28B0951F7AE50100B21E8D /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				EF28B0831F7A9CC000B21E8D /* AppDelegate.swift */,
-				EF28B0851F7A9CC000B21E8D /* ViewController.swift */,
-				EF28B0871F7A9CC000B21E8D /* Main.storyboard */,
+				EF28B0851F7A9CC000B21E8D /* FeedCollectionViewController.swift */,
+				EF28B0951F7AE50100B21E8D /* FeedCollectionViewCell.swift */,
 				EF28B08A1F7A9CC000B21E8D /* Assets.xcassets */,
 				EF28B08C1F7A9CC000B21E8D /* LaunchScreen.storyboard */,
 				EF28B08F1F7A9CC000B21E8D /* Info.plist */,
@@ -125,7 +125,6 @@
 			files = (
 				EF28B08E1F7A9CC000B21E8D /* LaunchScreen.storyboard in Resources */,
 				EF28B08B1F7A9CC000B21E8D /* Assets.xcassets in Resources */,
-				EF28B0891F7A9CC000B21E8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +135,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF28B0861F7A9CC000B21E8D /* ViewController.swift in Sources */,
+				EF28B0861F7A9CC000B21E8D /* FeedCollectionViewController.swift in Sources */,
 				EF28B0841F7A9CC000B21E8D /* AppDelegate.swift in Sources */,
+				EF28B0961F7AE50100B21E8D /* FeedCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF28B0871F7A9CC000B21E8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF28B0881F7A9CC000B21E8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF28B08C1F7A9CC000B21E8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
